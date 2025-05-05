@@ -28,7 +28,7 @@ def AllanDev(yList, taus='all', rate=1, ADevTyp='Total', tauMax=0.4, ComputeErr=
         ntau = itau + 1
     tau = tau[:ntau]
     ADev = ADev[:ntau]
-    ADevErr = ADevErr[:ntau]
+    ADevErr = ADevError[:ntau]
     ADevN = ADevN[:ntau]
 
     if ComputeErr:
